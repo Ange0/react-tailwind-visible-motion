@@ -1,0 +1,29 @@
+{
+  "name": "react-tailwind-visible-motion",
+  "version": "1.0.0",
+  "description": "A React component that animates elements using Tailwind CSS when they become visible on screen.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "react",
+    "tailwindcss",
+    "animation",
+    "intersection-observer",
+    "component",
+    "scroll"
+  ],
+  "author": "Yao Kouassi Ange",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.20",
+    "@types/react-dom": "^18.3.6",
+    "typescript": "^5.0.0"
+  }
+}
