@@ -4,6 +4,14 @@
   "description": "A React component that animates elements using Tailwind CSS when they become visible on screen.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/ange0/react-tailwind-visible-motion.git"
+},
+"bugs": {
+  "url": "https://github.com/ange0/react-tailwind-visible-motion/issues"
+},
+"homepage": "https://github.com/ange0/react-tailwind-visible-motion#readme",
   "scripts": {
     "build": "tsc"
   },
