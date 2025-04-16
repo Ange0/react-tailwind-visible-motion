@@ -11,10 +11,10 @@
 
 </div>
 
-
 ## 👀 Live Demo
 
-Check out [What Job](https://www.what-job.com) for a live example of this library in action.
+Check out [What Job](https://www.what-job.com) for a live example of this library in action.  
+You’ll find this kind of animation on many popular websites — for example, [WhatsApp](https://www.whatsapp.com).
 
 ![Animated demo](./assets/demo.gif)
 
