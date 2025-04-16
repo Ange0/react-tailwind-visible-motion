@@ -16,6 +16,8 @@
 
 ![Animated demo](./assets/demo.gif)
 
+exemple: it use on web site (https://www.what-job.com)
+
 ## ✨ Features
 
 - 🚀 **Simple Setup** - Ready to use in seconds
