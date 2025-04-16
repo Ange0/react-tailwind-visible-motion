@@ -12,11 +12,11 @@
 </div>
 
 
-## ✨ Live Preview
+## 👀 Live Demo
+
+Check out [What Job](https://www.what-job.com) for a live example of this library in action.
 
 ![Animated demo](./assets/demo.gif)
-
-exemple: it use on web site (https://www.what-job.com)
 
 ## ✨ Features
 
