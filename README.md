@@ -11,6 +11,11 @@
 
 </div>
 
+
+## ✨ Live Preview
+
+![Animated demo](./assets/demo.gif)
+
 ## ✨ Features
 
 - 🚀 **Simple Setup** - Ready to use in seconds
