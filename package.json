@@ -19,6 +19,7 @@
     "react",
     "tailwindcss",
     "animation",
+    "motion",
     "intersection-observer",
     "component",
     "scroll"
