@@ -48,10 +48,7 @@ function App() {
       onOutTransitionMode="translate-y-20 opacity-0 duration-100"
       className="your-custom-classes"
     >
-      <div className="p-6 bg-white rounded-lg shadow-lg">
-        <h2 className="text-2xl font-bold">Animated Content</h2>
         <p>This content will animate when it becomes visible!</p>
-      </div>
     </ReactTailwindVisibleMotion>
   );
 }
