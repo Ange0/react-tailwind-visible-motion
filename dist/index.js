@@ -1,6 +1,6 @@
 import { jsx as _jsx } from "react/jsx-runtime";
 import { useEffect, useRef, useState } from "react";
-export default function ElementOnScreenComponent({ id, children, onInTransitionMode = "translate-y-0 opacity-100 delay-[200ms] duration-[1000ms]", onOutTransitionMode = "translate-y-20 opacity-0 duration-100", className, }) {
+export default function ReactTailwindVisibleMotion({ id, children, onInTransitionMode = "translate-y-0 opacity-100 delay-[200ms] duration-[1000ms]", onOutTransitionMode = "translate-y-20 opacity-0 duration-100", className, }) {
     const myRef = useRef(null);
     const [myElementVisible, setMyElementVisible] = useState(false);
     const elementsViewed = useRef([]);
