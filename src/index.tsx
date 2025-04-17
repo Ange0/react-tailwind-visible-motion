@@ -1,20 +1,19 @@
-"use client";
 import React, { useEffect, useRef, useState } from "react";
 
-type Props = {
+type Props =  {
   id: string;
   children: React.ReactNode;
   onInTransitionMode?: string;
   onOutTransitionMode?: string;
   className?: string;
-};
+}
 
-export function ReactTailwindVisibleMotion({
+export default function ElementOnScreenComponent({
   id,
   children,
   onInTransitionMode = "translate-y-0 opacity-100 delay-[200ms] duration-[1000ms]",
   onOutTransitionMode = "translate-y-20 opacity-0 duration-100",
-  className = "",
+  className,
 }: Props) {
   const myRef = useRef<HTMLDivElement>(null);
   const [myElementVisible, setMyElementVisible] = useState<boolean>(false);
@@ -45,9 +44,7 @@ export function ReactTailwindVisibleMotion({
   return (
     <div
       id={id}
-      className={`${
-        myElementVisible ? onInTransitionMode : !elementsViewed.current.includes(id) && onOutTransitionMode
-      } transition ${className}`}
+      className={`${myElementVisible ? onInTransitionMode : !elementsViewed.current.includes(id) && onOutTransitionMode} transition ${className}`}
       ref={myRef}
     >
       {children}
