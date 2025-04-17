@@ -8,7 +8,7 @@ type Props =  {
   className?: string;
 }
 
-export default function ElementOnScreenComponent({
+export default function ReactTailwindVisibleMotion({
   id,
   children,
   onInTransitionMode = "translate-y-0 opacity-100 delay-[200ms] duration-[1000ms]",

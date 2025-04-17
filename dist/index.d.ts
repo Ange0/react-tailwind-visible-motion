@@ -6,5 +6,5 @@ type Props = {
     onOutTransitionMode?: string;
     className?: string;
 };
-export declare function ReactTailwindVisibleMotion({ id, children, onInTransitionMode, onOutTransitionMode, className, }: Props): import("react/jsx-runtime").JSX.Element;
+export default function ElementOnScreenComponent({ id, children, onInTransitionMode, onOutTransitionMode, className, }: Props): import("react/jsx-runtime").JSX.Element;
 export {};

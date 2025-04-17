@@ -1,6 +1,6 @@
 {
   "name": "react-tailwind-visible-motion",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A React component that animates elements using Tailwind CSS when they become visible on screen.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
